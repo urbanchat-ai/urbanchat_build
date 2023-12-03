@@ -40,6 +40,22 @@ async function onChatbotLoad() {
         return
     }
 
+    // check for allowed domain
+    
+    const host = location.hostname
+    const arr = res.domain.split(',').filter((item) => item)
+
+    // if(arr.length > 0){
+    //     if(arr.indexOf(host) == -1){
+    //         console.log('Not allowed on this domain')
+    //         return
+    //     }
+    // }
+    
+
+
+    
+
     const para = document.createElement("div");
     para.className = 'urban-chat-box'
 
@@ -74,14 +90,15 @@ async function fetchData(id) {
         // Make a GET request using Fetch and wait for the response
         const response = await fetch(apiUrl);
 
-        console.log(response)
+        // console.log(response)
 
         // Check if the response status is OK (status code 200-299)
         if (response.ok) {
             const data = await response.json()
             return {
                 align: data.view[0].align_chat_bubble,
-                icon: data.view[0].icon_or_popup
+                icon: data.view[0].icon_or_popup,
+                domain: data.view[0].allowed_domains
             }
         }else{
             throw new Error('something went wrong')

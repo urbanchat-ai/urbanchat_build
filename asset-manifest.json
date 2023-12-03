@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbd76ff5.chunk.css",
-    "main.js": "/static/js/main.edc8bf3d.chunk.js",
-    "main.js.map": "/static/js/main.edc8bf3d.chunk.js.map",
+    "main.css": "/static/css/main.cc3ec744.chunk.css",
+    "main.js": "/static/js/main.0d382d66.chunk.js",
+    "main.js.map": "/static/js/main.0d382d66.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4373e0c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.4373e0c3.js.map",
-    "static/js/2.42f5c20e.chunk.js": "/static/js/2.42f5c20e.chunk.js",
-    "static/js/2.42f5c20e.chunk.js.map": "/static/js/2.42f5c20e.chunk.js.map",
+    "static/js/2.e2d437f0.chunk.js": "/static/js/2.e2d437f0.chunk.js",
+    "static/js/2.e2d437f0.chunk.js.map": "/static/js/2.e2d437f0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dbd76ff5.chunk.css.map": "/static/css/main.dbd76ff5.chunk.css.map",
-    "static/js/2.42f5c20e.chunk.js.LICENSE.txt": "/static/js/2.42f5c20e.chunk.js.LICENSE.txt",
+    "static/css/main.cc3ec744.chunk.css.map": "/static/css/main.cc3ec744.chunk.css.map",
+    "static/js/2.e2d437f0.chunk.js.LICENSE.txt": "/static/js/2.e2d437f0.chunk.js.LICENSE.txt",
     "static/media/CopyIcon.45bb0575.svg": "/static/media/CopyIcon.45bb0575.svg",
     "static/media/Domain.e44e063c.svg": "/static/media/Domain.e44e063c.svg",
     "static/media/FileBlankIcon.5d818ca7.svg": "/static/media/FileBlankIcon.5d818ca7.svg",
@@ -32,7 +32,7 @@
     "static/media/delete.a0cb4f41.svg": "/static/media/delete.a0cb4f41.svg",
     "static/media/fileIcon.5278e88d.svg": "/static/media/fileIcon.5278e88d.svg",
     "static/media/formMobile.e61570fc.png": "/static/media/formMobile.e61570fc.png",
-    "static/media/gradiant.ed48b34a.svg": "/static/media/gradiant.ed48b34a.svg",
+    "static/media/gradiant.8e78a80f.svg": "/static/media/gradiant.8e78a80f.svg",
     "static/media/helpIcon.2b8170e1.svg": "/static/media/helpIcon.2b8170e1.svg",
     "static/media/historyIcon.a472adae.svg": "/static/media/historyIcon.a472adae.svg",
     "static/media/image1.ec5b7dae.png": "/static/media/image1.ec5b7dae.png",
@@ -43,7 +43,7 @@
     "static/media/linkIcon.f1c26f20.svg": "/static/media/linkIcon.f1c26f20.svg",
     "static/media/mobile.bb158d03.png": "/static/media/mobile.bb158d03.png",
     "static/media/new-business.4ff016fe.png": "/static/media/new-business.4ff016fe.png",
-    "static/media/robot.2a07c2d2.png": "/static/media/robot.2a07c2d2.png",
+    "static/media/robot.acfcbbe3.png": "/static/media/robot.acfcbbe3.png",
     "static/media/sendicon.04014221.svg": "/static/media/sendicon.04014221.svg",
     "static/media/test.6d99d1d2.jpg": "/static/media/test.6d99d1d2.jpg",
     "static/media/textIcon.c7e27762.svg": "/static/media/textIcon.c7e27762.svg",
@@ -51,12 +51,13 @@
     "static/media/urbanchatLogo.2c94742c.svg": "/static/media/urbanchatLogo.2c94742c.svg",
     "static/media/video-anim.9a94dd72.mp4": "/static/media/video-anim.9a94dd72.mp4",
     "static/media/video-anim2.1a0800fa.mp4": "/static/media/video-anim2.1a0800fa.mp4",
+    "static/media/video-img.f5a93473.png": "/static/media/video-img.f5a93473.png",
     "static/media/wp_logo.81a59482.png": "/static/media/wp_logo.81a59482.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4373e0c3.js",
-    "static/js/2.42f5c20e.chunk.js",
-    "static/css/main.dbd76ff5.chunk.css",
-    "static/js/main.edc8bf3d.chunk.js"
+    "static/js/2.e2d437f0.chunk.js",
+    "static/css/main.cc3ec744.chunk.css",
+    "static/js/main.0d382d66.chunk.js"
   ]
 }
