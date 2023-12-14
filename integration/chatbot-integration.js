@@ -41,7 +41,7 @@ async function onChatbotLoad() {
     }
 
     // check for allowed domain
-    
+
     const host = location.hostname
     const arr = res.domain.split(',').filter((item) => item)
 
@@ -51,10 +51,10 @@ async function onChatbotLoad() {
     //         return
     //     }
     // }
-    
 
 
-    
+
+
 
     const para = document.createElement("div");
     para.className = 'urban-chat-box'
@@ -65,13 +65,13 @@ async function onChatbotLoad() {
 
     para.innerHTML = baseCode;
     document.body.appendChild(para);
-    
+
     const btn = document.querySelector('#urban-toggle-btn')
     const image = document.querySelector('#urban-toggle-btn img')
     btn.addEventListener('click', toggleUrbanChatbot)
 
-    if(res.icon) image.src = res.icon
-    
+    if (res.icon) image.src = res.icon
+
 }
 
 
@@ -100,7 +100,7 @@ async function fetchData(id) {
                 icon: data.view[0].icon_or_popup,
                 domain: data.view[0].allowed_domains
             }
-        }else{
+        } else {
             throw new Error('something went wrong')
         }
 
@@ -114,9 +114,29 @@ async function fetchData(id) {
 
 
 
+if (window.addEventListener) {
+    window.addEventListener("message", onUrbanChatMessage, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent("onmessage", onUrbanChatMessage, false);
+}
+
+function onUrbanChatMessage(event) {
+    var data = event.data;
+
+    if (typeof (window[data.func]) == "function") {
+        window[data.func].call(null, data.message);
+    }
+}
+
+
+
+
 
 function toggleUrbanChatbot() {
     const iframe = document.getElementById("urban-chat-iframe")
     iframe.classList.toggle('hide')
+    const btn = document.querySelector('#urban-toggle-btn')
+    btn.classList.toggle("hide-chat")
 
 }

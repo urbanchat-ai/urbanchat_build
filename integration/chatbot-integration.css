@@ -1,20 +1,24 @@
 .urban-chat-box {
   position: fixed;
-  bottom: 4rem;
-  right: 4rem;
+  bottom: 0;
+  top: 0;
+  right: 3rem;
   left: unset;
   background-color: transparent;
   overflow: hidden;
   z-index: 2147483646;
   padding: 0 24px;
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  align-items: end;
 }
 
-.urban-chat-box.left{
+.urban-chat-box.left {
   right: unset;
-  left: 4rem;
+  left: 3rem;
 }
 
-.urban-chat-box iframe.hide{
+.urban-chat-box iframe.hide {
   display: none;
 }
 
@@ -22,8 +26,8 @@
   border: none;
   border-radius: 0.75rem;
   width: 380px;
-  height: 100vh;
-  max-height: 550px;
+  height: calc(100vh - 132px);
+  /* max-height: 650px; */
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -38,19 +42,54 @@
   margin-top: 16px;
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 32px;
 }
 
-.urban-chat-box.left>button{
+.urban-chat-box.left>button {
   margin-right: auto;
   margin-left: unset;
 }
 
-.urban-chat-box>button:hover{
+.urban-chat-box>button:hover {
   opacity: 0.7;
 }
 
-.urban-chat-box>button img{
+.urban-chat-box>button img {
   width: 70%;
   height: 70%;
   object-fit: cover;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .urban-chat-box>button.hide-chat {
+    display: none;
+  }
+
+  .urban-chat-box iframe {
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: unset;
+    box-shadow: unset;
+  }
+
+  .urban-chat-box {
+    right: 0;
+    padding: 0;
+  }
+
+  .urban-chat-box.left {
+    right: unset;
+    left: 0;
+  }
+
+  .urban-chat-box>button {
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 50px;
+    height: 50px;
+  }
 }
