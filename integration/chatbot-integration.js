@@ -43,18 +43,35 @@ async function onChatbotLoad() {
     // check for allowed domain
 
     const host = location.hostname
-    const arr = res.domain.split(',').filter((item) => item)
+    
 
-    // if(arr.length > 0){
-    //     if(arr.indexOf(host) == -1){
-    //         console.log('Not allowed on this domain')
-    //         return
-    //     }
-    // }
+    try {
 
+        const arr = JSON.parse(res.domain)
 
+        if (arr.length > 0) {
+            let isFound = false
+            for (const iterator of arr) {
+                if (iterator.url.indexOf(host) != -1) {
+                    isFound = true
+                    break
+    
+                }
+            }
+    
+    
+            if (!isFound) {
+                console.log('Not allowed on this domain')
+                return
+            }
+        }
+        
+    } catch (error) {
+        console.log("Data is not in correct format, please update it from domain section", error)
+        return
+    }
 
-
+   
 
     const para = document.createElement("div");
     para.className = 'urban-chat-box'

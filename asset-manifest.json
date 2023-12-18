@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.77317129.chunk.css",
-    "main.js": "/static/js/main.65204ad9.chunk.js",
-    "main.js.map": "/static/js/main.65204ad9.chunk.js.map",
+    "main.css": "/static/css/main.eaf765bb.chunk.css",
+    "main.js": "/static/js/main.a92afdc6.chunk.js",
+    "main.js.map": "/static/js/main.a92afdc6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4373e0c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.4373e0c3.js.map",
-    "static/js/2.8f8d792f.chunk.js": "/static/js/2.8f8d792f.chunk.js",
-    "static/js/2.8f8d792f.chunk.js.map": "/static/js/2.8f8d792f.chunk.js.map",
+    "static/js/2.d3d8c64d.chunk.js": "/static/js/2.d3d8c64d.chunk.js",
+    "static/js/2.d3d8c64d.chunk.js.map": "/static/js/2.d3d8c64d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.77317129.chunk.css.map": "/static/css/main.77317129.chunk.css.map",
-    "static/js/2.8f8d792f.chunk.js.LICENSE.txt": "/static/js/2.8f8d792f.chunk.js.LICENSE.txt",
+    "static/css/main.eaf765bb.chunk.css.map": "/static/css/main.eaf765bb.chunk.css.map",
+    "static/js/2.d3d8c64d.chunk.js.LICENSE.txt": "/static/js/2.d3d8c64d.chunk.js.LICENSE.txt",
     "static/media/CopyIcon.45bb0575.svg": "/static/media/CopyIcon.45bb0575.svg",
     "static/media/Domain.e44e063c.svg": "/static/media/Domain.e44e063c.svg",
     "static/media/FileBlankIcon.5d818ca7.svg": "/static/media/FileBlankIcon.5d818ca7.svg",
@@ -23,7 +23,7 @@
     "static/media/Rectangle26.e06269d2.png": "/static/media/Rectangle26.e06269d2.png",
     "static/media/Security.0804aada.svg": "/static/media/Security.0804aada.svg",
     "static/media/addIcon.f4f9cb64.svg": "/static/media/addIcon.f4f9cb64.svg",
-    "static/media/dropdown.css": "/static/media/arrow.6ce2c36f.svg",
+    "static/media/dropdown.css": "/static/media/arrow.0e4cc6a3.svg",
     "static/media/bot.bfdb7580.png": "/static/media/bot.bfdb7580.png",
     "static/media/chat-img.0698e339.svg": "/static/media/chat-img.0698e339.svg",
     "static/media/chat-on-hand.0ca349aa.png": "/static/media/chat-on-hand.0ca349aa.png",
@@ -88,8 +88,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4373e0c3.js",
-    "static/js/2.8f8d792f.chunk.js",
-    "static/css/main.77317129.chunk.css",
-    "static/js/main.65204ad9.chunk.js"
+    "static/js/2.d3d8c64d.chunk.js",
+    "static/css/main.eaf765bb.chunk.css",
+    "static/js/main.a92afdc6.chunk.js"
   ]
 }
