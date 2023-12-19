@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.eaf765bb.chunk.css",
-    "main.js": "/static/js/main.a92afdc6.chunk.js",
-    "main.js.map": "/static/js/main.a92afdc6.chunk.js.map",
+    "main.css": "/static/css/main.35abd313.chunk.css",
+    "main.js": "/static/js/main.c31b7b4d.chunk.js",
+    "main.js.map": "/static/js/main.c31b7b4d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4373e0c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.4373e0c3.js.map",
     "static/js/2.d3d8c64d.chunk.js": "/static/js/2.d3d8c64d.chunk.js",
     "static/js/2.d3d8c64d.chunk.js.map": "/static/js/2.d3d8c64d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eaf765bb.chunk.css.map": "/static/css/main.eaf765bb.chunk.css.map",
+    "static/css/main.35abd313.chunk.css.map": "/static/css/main.35abd313.chunk.css.map",
     "static/js/2.d3d8c64d.chunk.js.LICENSE.txt": "/static/js/2.d3d8c64d.chunk.js.LICENSE.txt",
     "static/media/CopyIcon.45bb0575.svg": "/static/media/CopyIcon.45bb0575.svg",
     "static/media/Domain.e44e063c.svg": "/static/media/Domain.e44e063c.svg",
@@ -89,7 +89,7 @@
   "entrypoints": [
     "static/js/runtime-main.4373e0c3.js",
     "static/js/2.d3d8c64d.chunk.js",
-    "static/css/main.eaf765bb.chunk.css",
-    "static/js/main.a92afdc6.chunk.js"
+    "static/css/main.35abd313.chunk.css",
+    "static/js/main.c31b7b4d.chunk.js"
   ]
 }
