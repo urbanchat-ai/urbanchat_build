@@ -1,6 +1,6 @@
 
 
-const urbanChatServerUrl = "http://localhost:3000"
+const urbanChatServerUrl = "https://urbanchat.ai"
 
 
 const linkCode = `<link rel="stylesheet" href="${urbanChatServerUrl}/integration/chatbot-integration.css">`
