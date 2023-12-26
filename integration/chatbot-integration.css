@@ -35,6 +35,7 @@
 .urban-chat-box>button {
   background-color: transparent;
   width: 60px;
+  border-radius: 50%;
   height: 60px;
   display: block;
   margin-left: auto;
@@ -54,6 +55,7 @@
 }
 
 .urban-chat-box>button img {
+  border-radius: 50%;
   width: 60px;
   height: 60px;
   object-fit: cover;
