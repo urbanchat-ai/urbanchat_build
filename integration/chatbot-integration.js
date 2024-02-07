@@ -20,7 +20,7 @@ async function onChatbotLoad() {
     const baseCode = `
         <iframe id="urban-chat-iframe" class="hide" src="${urbanChatServerUrl}/#/chatbot-iframe/${urbanChatbotId}" title="description"></iframe>
         <button id="urban-toggle-btn">
-            <img src="${urbanChatServerUrl}/bot.png"/>
+            <img src="${urbanChatServerUrl}/bot.svg"/>
         </button>
     `
 
